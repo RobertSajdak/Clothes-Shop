@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #d1d1d1;
   color: #797979;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
@@ -234,6 +234,32 @@ p {
 .c-icon-box__text {
   font-size: 0.875rem;
   margin-top: 15px;
+}
+
+.c-input {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.875rem;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 1.2;
+  outline: none;
+  padding: 1rem 1.25rem;
+}
+.c-input::placeholder {
+  color: #d1d1d1;
+}
+.c-input::-moz-placeholder {
+  color: #d1d1d1;
+  opacity: 1;
+}
+.c-input:-ms-placeholder {
+  color: #d1d1d1;
+}
+.c-input--newsletter {
+  border-radius: 5px 0 0 5px;
+  padding: 0.7rem 1.5rem;
 }
 
 .c-label {
