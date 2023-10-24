@@ -2,7 +2,8 @@
 @use "../02-tools/mixins" as *;
 
 .c-heading {
-  color: $blue-text;
+  color: $gray-dark-up;
+  letter-spacing: $letter-spacing-reduced;
   line-height: $line-height-sm;
   margin-bottom: calc($grid-base / 2);
 
@@ -11,7 +12,6 @@
 
     @include large-up {
       font-size: $font-size-1;
-      margin-top: 55px;
     }
   }
 
@@ -24,14 +24,6 @@
   }
 
   &--level3 {
-    font-size: $font-size-3;
-  }
-
-  &--level4 {
-    font-size: $font-size-4;
-  }
-
-  &--level5 {
     font-size: $font-size-5;
   }
 

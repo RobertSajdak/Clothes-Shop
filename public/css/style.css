@@ -188,7 +188,8 @@ p {
 }
 
 .c-heading {
-  color: #3b99e1;
+  color: #444444;
+  letter-spacing: -0.1rem;
   line-height: 1.2;
   margin-bottom: 5px;
 }
@@ -198,7 +199,6 @@ p {
 @media (min-width: 1200px) {
   .c-heading--level1 {
     font-size: 3.75rem;
-    margin-top: 55px;
   }
 }
 .c-heading--level2 {
@@ -210,12 +210,6 @@ p {
   }
 }
 .c-heading--level3 {
-  font-size: 1.5rem;
-}
-.c-heading--level4 {
-  font-size: 1.125rem;
-}
-.c-heading--level5 {
   font-size: 1rem;
 }
 .c-heading--upper {
