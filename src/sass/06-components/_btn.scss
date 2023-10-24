@@ -1,0 +1,71 @@
+@use "../01-settings/variables" as *;
+
+.c-btn {
+  border: none;
+  border-radius: $border-radius;
+  display: inline-block;
+  font-size: $font-size-5;
+  font-weight: 700;
+  line-height: $line-height-base;
+  padding: 0.75rem 0;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.25s ease-in-out;
+  width: $grid-base * 22;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &--primary {
+    background-color: $blue-light;
+    color: $blue-text;
+
+    &:hover {
+      //przyciemnienie koloru tła o podany % przy najechaniu kursorem myszki na przycisk
+      background-color: darken($blue-light, 30%);
+      color: $white;
+    }
+  }
+
+  &--accent {
+    background-color: $green;
+    color: $white;
+
+    &:hover {
+      background-color: darken($green, 30%);
+      color: $white;
+    }
+  }
+
+  &--dark-blue {
+    background-color: $blue-dark;
+    color: $white;
+
+    &:hover {
+      background-color: darken($blue-dark, 30%);
+      color: $white;
+    }
+  }
+
+  &--light {
+    background-color: $gray-light;
+    color: $blue-text;
+
+    &:hover {
+      background-color: darken($white, 30%);
+      color: $white;
+    }
+  }
+
+  &--outline {
+    background-color: transparent;
+    border: 2px solid $blue-light;
+    color: $white;
+
+    &:hover {
+      color: $blue-dark;
+      border: 2px solid $blue-dark;
+    }
+  }
+}
