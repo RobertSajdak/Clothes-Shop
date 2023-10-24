@@ -8,7 +8,7 @@ body {
   background-color: #ffffff;
   color: #797979;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.125rem;
+  font-size: 1rem;
   margin: 0;
   padding: 0;
 }
@@ -26,11 +26,11 @@ ul li {
 }
 
 a {
-  color: #797979;
+  color: #444444;
   text-decoration: none;
 }
 a:hover {
-  color: #797979;
+  color: #444444;
   text-decoration: underline;
 }
 
@@ -41,7 +41,7 @@ h4,
 h5,
 h6 {
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.2;
   margin: 0;
 }
 
@@ -139,58 +139,52 @@ p {
   border: none;
   border-radius: 5px;
   display: inline-block;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 700;
-  line-height: 1.5;
-  padding: 0.75rem 0;
-  text-align: center;
+  line-height: 1.2;
+  padding: 1rem 1.25rem;
   text-transform: uppercase;
   transition: all 0.25s ease-in-out;
-  width: 220px;
 }
 .c-btn:hover {
   text-decoration: none;
 }
-.c-btn--primary {
-  background-color: #d3eafa;
-  color: #3b99e1;
-}
-.c-btn--primary:hover {
-  background-color: #4aa8ea;
-  color: #ffffff;
+.c-btn__icon {
+  margin-left: 0.5rem;
 }
 .c-btn--accent {
-  background-color: #60dc64;
+  background-color: #f1c40f;
   color: #ffffff;
 }
 .c-btn--accent:hover {
-  background-color: #1d8621;
-  color: #ffffff;
-}
-.c-btn--dark-blue {
-  background-color: #3e5cc5;
-  color: #ffffff;
-}
-.c-btn--dark-blue:hover {
-  background-color: #182552;
+  background-color: #aa8a0a;
   color: #ffffff;
 }
 .c-btn--light {
-  background-color: #f2f3f5;
-  color: #3b99e1;
+  background-color: #ffffff;
+  border: 0.5px solid #d1d1d1;
+  color: #444444;
 }
 .c-btn--light:hover {
-  background-color: #b3b3b3;
-  color: #ffffff;
+  background-color: #d9d9d9;
+  color: #444444;
 }
 .c-btn--outline {
   background-color: transparent;
-  border: 2px solid #d3eafa;
+  border: 2px solid #ffffff;
   color: #ffffff;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  padding: 0.55rem 1rem;
 }
 .c-btn--outline:hover {
-  color: #3e5cc5;
-  border: 2px solid #3e5cc5;
+  border: 2px solid #d9d9d9;
+  color: #d9d9d9;
+}
+.c-btn--small {
+  border-radius: 3px;
+  font-size: 0.5625rem;
+  padding: 0.55rem 0.75rem;
 }
 
 .c-heading {
