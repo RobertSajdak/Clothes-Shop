@@ -6,9 +6,9 @@
 
 body {
   background-color: #ffffff;
-  color: #444444;
+  color: #797979;
   font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
+  font-size: 1.125rem;
   margin: 0;
   padding: 0;
 }
@@ -22,15 +22,15 @@ ul {
   padding: 0;
 }
 ul li {
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 
 a {
-  color: #444444;
+  color: #797979;
   text-decoration: none;
 }
 a:hover {
-  color: #444444;
+  color: #797979;
   text-decoration: underline;
 }
 
@@ -46,7 +46,7 @@ h6 {
 }
 
 p {
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   margin: 0;
@@ -139,7 +139,7 @@ p {
   border: none;
   border-radius: 5px;
   display: inline-block;
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 1.5;
   padding: 0.75rem 0;
@@ -176,7 +176,7 @@ p {
   color: #ffffff;
 }
 .c-btn--light {
-  background-color: #f9fbfe;
+  background-color: #f2f3f5;
   color: #3b99e1;
 }
 .c-btn--light:hover {
@@ -199,30 +199,30 @@ p {
   margin-bottom: 5px;
 }
 .c-heading--level1 {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 @media (min-width: 1200px) {
   .c-heading--level1 {
-    font-size: 3rem;
+    font-size: 3.75rem;
     margin-top: 55px;
   }
 }
 .c-heading--level2 {
-  font-size: 1.125rem;
+  font-size: 1.5rem;
 }
 @media (min-width: 1200px) {
   .c-heading--level2 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
 }
 .c-heading--level3 {
-  font-size: 1.125rem;
+  font-size: 1.5rem;
 }
 .c-heading--level4 {
-  font-size: 1rem;
+  font-size: 1.125rem;
 }
 .c-heading--level5 {
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 .c-heading--upper {
   text-transform: uppercase;
@@ -244,13 +244,13 @@ p {
   align-self: center;
 }
 .c-icon-box__text {
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   margin-top: 15px;
 }
 
 .c-label {
   display: block;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   font-weight: bold;
   margin-bottom: 15px;
   text-transform: uppercase;
@@ -258,7 +258,7 @@ p {
 
 .c-list__item {
   margin-bottom: 12px;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
 }
 .c-list--unstyled {
   list-style-type: none;
@@ -267,7 +267,7 @@ p {
 .c-nav__item {
   color: #ffffff;
   display: block;
-  font-size: 0.875rem;
+  font-size: 1rem;
   padding-bottom: 7.5px;
   padding-top: 7.5px;
   text-align: center;
@@ -311,11 +311,11 @@ p {
   }
 }
 .t-clinic-locator__heading {
-  color: #444444;
+  color: #797979;
   margin-bottom: 15px;
 }
 .t-clinic-locator__subheading {
-  color: #444444;
+  color: #797979;
   margin-bottom: 40px;
 }
 .t-clinic-locator__buttons {
@@ -390,7 +390,7 @@ p {
 }
 
 .t-post-list {
-  background-color: #f9fbfe;
+  background-color: #f2f3f5;
   padding-top: 20px;
   position: relative;
 }
@@ -404,7 +404,7 @@ p {
 }
 @media (min-width: 1200px) {
   .t-post-list__content {
-    background-color: #f9fbfe;
+    background-color: #f2f3f5;
     clip-path: ellipse(80% 470px at 50% 0);
     left: 0;
     position: absolute;
@@ -432,7 +432,7 @@ p {
   background: linear-gradient(45deg, #3e5cc5 0%, #5b8af8 100%);
   border-radius: 5px 0 0 5px;
   color: #ffffff;
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: bold;
   padding: 0.5rem 1rem;
   position: absolute;
@@ -482,14 +482,14 @@ p {
   height: 60px;
 }
 .t-site-footer__text-heading {
-  color: #444444;
+  color: #797979;
 }
 .t-site-footer__address {
   padding-top: 20px;
 }
 .t-site-footer__label {
   display: block;
-  font-size: 0.875rem;
+  font-size: 1rem;
   margin-bottom: 10px;
 }
 .t-site-footer__contact-item {
@@ -501,7 +501,7 @@ p {
   padding-top: 25px;
 }
 .t-site-footer__copy-text {
-  font-size: 0.625rem;
+  font-size: 0.75rem;
 }
 
 .t-site-header {
@@ -544,13 +544,13 @@ p {
 }
 .t-site-header__intro-text {
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 1.125rem;
   margin-bottom: 20px;
   margin-top: 30px;
 }
 @media (min-width: 1200px) {
   .t-site-header__intro-text {
-    font-size: 1.125rem;
+    font-size: 1.5rem;
     line-height: 1.66;
     max-width: 55%;
     margin: 0 auto;
@@ -560,7 +560,7 @@ p {
 .t-site-header__btn-divider {
   color: #ffffff;
   display: block;
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 700;
   margin: 20px;
   text-transform: uppercase;
@@ -576,7 +576,7 @@ p {
 }
 
 .u-bg-light {
-  background-color: #f9fbfe;
+  background-color: #f2f3f5;
 }
 
 .u-text-white {
