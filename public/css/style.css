@@ -311,6 +311,12 @@ p {
   }
 }
 
+.c-pagination__item {
+  font-weight: bold;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 .t-clinic-locator {
   background: linear-gradient(45deg, #3e5cc5 0%, #5b8af8 100%);
   padding-bottom: 45px;
@@ -606,6 +612,10 @@ p {
 
 .u-text-white {
   color: #ffffff;
+}
+
+.u-accent {
+  color: #f1c40f;
 }
 
 .u-mb-1 {
