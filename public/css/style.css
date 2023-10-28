@@ -333,6 +333,33 @@ p {
   top: 50%;
   transform: translateY(-50%);
 }
+.c-product-card__cart {
+  align-items: center;
+  background-color: #f2f3f5;
+  bottom: 15px;
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  width: 220px;
+}
+.c-product-card__cart-icon {
+  text-align: center;
+  flex: 0 0 20%;
+}
+.c-product-card__cart-text {
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  color: #797979;
+  flex: 0 0 60%;
+  font-size: 0.75rem;
+  font-weight: bold;
+  line-height: 40px;
+  text-transform: uppercase;
+}
 .c-product-card__meta {
   display: flex;
   font-size: 0.875rem;
