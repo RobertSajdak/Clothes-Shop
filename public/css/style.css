@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: yellowgreen;
+  background-color: #ffffff;
   color: #797979;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
@@ -77,9 +77,21 @@ p {
   }
 }
 @media (min-width: 1200px) {
+  .o-col--lg20 {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+@media (min-width: 1200px) {
   .o-col--lg25 {
     flex: 0 0 25%;
     max-width: 25%;
+  }
+}
+@media (min-width: 1200px) {
+  .o-col--lg30 {
+    flex: 0 0 30%;
+    max-width: 30%;
   }
 }
 @media (min-width: 1200px) {
@@ -89,15 +101,39 @@ p {
   }
 }
 @media (min-width: 1200px) {
+  .o-col--lg40 {
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
+}
+@media (min-width: 1200px) {
   .o-col--lg50 {
     flex: 0 0 50%;
     max-width: 50%;
   }
 }
 @media (min-width: 1200px) {
+  .o-col--lg60 {
+    flex: 0 0 60%;
+    max-width: 60%;
+  }
+}
+@media (min-width: 1200px) {
+  .o-col--lg70 {
+    flex: 0 0 70%;
+    max-width: 70%;
+  }
+}
+@media (min-width: 1200px) {
   .o-col--lg75 {
     flex: 0 0 75%;
     max-width: 75%;
+  }
+}
+@media (min-width: 1200px) {
+  .o-col--lg80 {
+    flex: 0 0 80%;
+    max-width: 80%;
   }
 }
 
@@ -653,6 +689,60 @@ p {
     padding-bottom: 0;
   }
 }
+.t-site-header__icons {
+  text-align: center;
+}
+@media (min-width: 1200px) {
+  .t-site-header__icons {
+    text-align: right;
+  }
+}
+.t-site-header__icon {
+  display: inline-block;
+  margin-left: 15px;
+  position: relative;
+}
+.t-site-header__number {
+  background-color: #f1c40f;
+  border-radius: 50%;
+  bottom: 0;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 9px;
+  height: 14px;
+  line-height: 14px;
+  position: absolute;
+  right: -7px;
+  text-align: center;
+  width: 14px;
+}
+.t-site-header__hero {
+  background: linear-gradient(0deg, #ebcb55 0%, #f8db7e 100%);
+  color: #444444;
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+@media (min-width: 1200px) {
+  .t-site-header__hero {
+    background: url("/src/assets/images/header-figure.png") 15% 100% no-repeat, linear-gradient(0deg, #ebcb55 0%, #f8db7e 100%);
+    padding-bottom: 180px;
+    padding-top: 200px;
+  }
+}
+@media (min-width: 1200px) {
+  .t-site-header__hero-right {
+    padding-left: 475px;
+    padding-right: 0;
+  }
+}
+.t-site-header__intro-text {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.t-site-header__cta {
+  margin-top: 50px;
+}
+
 .u-bg-white {
   background-color: #ffffff;
 }

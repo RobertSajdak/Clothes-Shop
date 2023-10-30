@@ -28,10 +28,24 @@
     }
   }
 
+  &--lg20 {
+    @include large-up {
+      flex: 0 0 20%;
+      max-width: 20%;
+    }
+  }
+
   &--lg25 {
     @include large-up {
       flex: 0 0 25%;
       max-width: 25%;
+    }
+  }
+
+  &--lg30 {
+    @include large-up {
+      flex: 0 0 30%;
+      max-width: 30%;
     }
   }
 
@@ -42,6 +56,13 @@
     }
   }
 
+  &--lg40 {
+    @include large-up {
+      flex: 0 0 40%;
+      max-width: 40%;
+    }
+  }
+
   &--lg50 {
     @include large-up {
       flex: 0 0 50%;
@@ -49,10 +70,31 @@
     }
   }
 
+  &--lg60 {
+    @include large-up {
+      flex: 0 0 60%;
+      max-width: 60%;
+    }
+  }
+
+  &--lg70 {
+    @include large-up {
+      flex: 0 0 70%;
+      max-width: 70%;
+    }
+  }
+
   &--lg75 {
     @include large-up {
       flex: 0 0 75%;
       max-width: 75%;
+    }
+  }
+
+  &--lg80 {
+    @include large-up {
+      flex: 0 0 80%;
+      max-width: 80%;
     }
   }
 }
