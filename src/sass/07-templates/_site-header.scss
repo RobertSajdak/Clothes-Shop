@@ -43,21 +43,34 @@
   &__hero {
     background: $yellow-gradient;
     color: $gray-dark-up;
-
-    padding-bottom: $grid-base * 8;
-    padding-top: $grid-base * 8;
+    height: 350px;
+    padding-top: 0;
 
     @include large-up {
-      background: url("/src/assets/images/header-figure.png") 15% 100% no-repeat,
-        $yellow-gradient;
-      padding-bottom: $grid-base * 18;
-      padding-top: $grid-base * 20;
+      // background: url("./assets/images/png/header-figure.png") 15% 100%,
+      //   no-repeat, $yellow-gradient;
+      height: 490px;
+      padding-top: $grid-base * 5;
+    }
+  }
+
+  &__hero-left {
+    position: relative;
+
+    @include large-up {
+      margin-bottom: 0;
+
+      &__img {
+        margin-left: -88px;
+        position: absolute;
+      }
     }
   }
 
   &__hero-right {
     @include large-up {
-      padding-left: $grid-base * 47.5;
+      padding-top: $grid-base * 12;
+      padding-left: 0;
       padding-right: 0;
     }
   }
@@ -68,6 +81,6 @@
   }
 
   &__cta {
-    margin-top: $grid-base * 5;
+    margin-top: $grid-base * 3;
   }
 }

@@ -1,8 +1,5 @@
-@use "01-settings/shadows";
-@use "01-settings/type";
 @use "01-settings/variables";
 
-@use "02-tools/functions";
 @use "02-tools/mixins";
 
 @use "03-generic/box-sizing";
@@ -27,10 +24,8 @@
 @use "06-components/product-card";
 @use "06-components/product-selector";
 
-@use "07-templates/clinic-locator";
+@use "07-templates/our-advantages";
 @use "07-templates/our-company";
-@use "07-templates/our-services";
-@use "07-templates/post-list";
 @use "07-templates/site-footer";
 @use "07-templates/site-header";
 
