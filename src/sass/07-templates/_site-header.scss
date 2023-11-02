@@ -43,34 +43,22 @@
   &__hero {
     background: $yellow-gradient;
     color: $gray-dark-up;
-    height: 350px;
-    padding-top: 0;
+    padding-bottom: $grid-base * 8;
+    padding-top: $grid-base * 8;
 
     @include large-up {
-      // background: url("./header-figure.png") 15% 100%, no-repeat,
-      //   $yellow-gradient;
-      height: 490px;
-      padding-top: $grid-base * 5;
-    }
-  }
-
-  &__hero-left {
-    position: relative;
-
-    @include large-up {
-      margin-bottom: 0;
-
-      &__img {
-        margin-left: -88px;
-        position: absolute;
-      }
+      background-image: url("../assets/images/png/header-figure.png"),
+        $yellow-gradient;
+      background-position-y: 100%;
+      background-repeat: no-repeat;
+      padding-bottom: $grid-base * 18;
+      padding-top: $grid-base * 20;
     }
   }
 
   &__hero-right {
     @include large-up {
-      padding-top: $grid-base * 12;
-      padding-left: 0;
+      padding-left: $grid-base * 46;
       padding-right: 0;
     }
   }
@@ -81,6 +69,6 @@
   }
 
   &__cta {
-    margin-top: $grid-base * 3;
+    margin-top: $grid-base * 4;
   }
 }

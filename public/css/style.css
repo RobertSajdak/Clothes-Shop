@@ -545,6 +545,61 @@ p {
     padding-left: 70px;
   }
 }
+.t-promoted__item--left {
+  background-image: #2bb9d5;
+}
+@media (min-width: 800px) {
+  .t-promoted__item--left {
+    background-image: url("../../assets/images/promo-2.jpg");
+    background-repeat: no-repeat;
+    padding-left: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  .t-promoted__item--left {
+    padding-left: 70px;
+  }
+}
+.t-promoted__item--left .c-btn {
+  margin-top: 25px;
+}
+.t-promoted__item--right {
+  background-image: #f3bbc4;
+}
+@media (min-width: 800px) {
+  .t-promoted__item--right {
+    background-image: url("../../assets/images/promo-3.jpg");
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 1200px) {
+  .t-promoted__item--right {
+    padding-left: 285px;
+  }
+}
+.t-promoted__item--right .c-btn {
+  margin-top: 25px;
+}
+.t-promoted__text {
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.t-promoted__text--size1 {
+  display: block;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+.t-promoted__text--size2 {
+  display: block;
+  font-size: 1.5rem;
+}
+.t-promoted__text--size3 {
+  font-size: 1.5rem;
+}
+.t-promoted__code .c-btn {
+  margin-left: 20px;
+}
 
 .t-site-footer {
   padding-left: 15px;
@@ -645,31 +700,21 @@ p {
 .t-site-header__hero {
   background: linear-gradient(0deg, #ebcb55 0%, #f8db7e 100%);
   color: #444444;
-  height: 350px;
-  padding-top: 0;
+  padding-bottom: 80px;
+  padding-top: 80px;
 }
 @media (min-width: 1200px) {
   .t-site-header__hero {
-    height: 490px;
-    padding-top: 50px;
-  }
-}
-.t-site-header__hero-left {
-  position: relative;
-}
-@media (min-width: 1200px) {
-  .t-site-header__hero-left {
-    margin-bottom: 0;
-  }
-  .t-site-header__hero-left__img {
-    margin-left: -88px;
-    position: absolute;
+    background-image: url("../assets/images/png/header-figure.png"), linear-gradient(0deg, #ebcb55 0%, #f8db7e 100%);
+    background-position-y: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 180px;
+    padding-top: 200px;
   }
 }
 @media (min-width: 1200px) {
   .t-site-header__hero-right {
-    padding-top: 120px;
-    padding-left: 0;
+    padding-left: 460px;
     padding-right: 0;
   }
 }
@@ -678,7 +723,7 @@ p {
   text-transform: uppercase;
 }
 .t-site-header__cta {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .u-bg-white {
