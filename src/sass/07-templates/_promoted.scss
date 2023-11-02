@@ -1,0 +1,33 @@
+@use "../01-settings/variables" as *;
+@use "../02-tools/mixins" as *;
+
+.t-promoted {
+  padding-top: $grid-base * 8;
+
+  & .o-row {
+    margin-bottom: $grid-base * 3;
+  }
+
+  &__item {
+    padding-bottom: $grid-base * 6.5;
+    padding-left: $grid-base * 1.5;
+    padding-right: $grid-base * 1.5;
+    padding-top: $grid-base * 6.5;
+
+    &--central {
+      background-image: $yellow-gradient;
+      padding-bottom: $grid-base * 7;
+      padding-top: $grid-base * 7;
+
+      @include medium-up {
+        background-image: url("../../assets/images/promo-1.jpg");
+        background-repeat: no-repeat;
+        padding-left: $grid-base * 4;
+      }
+
+      @include large-up {
+        padding-left: $grid-base * 7;
+      }
+    }
+  }
+}

@@ -516,6 +516,36 @@ p {
   margin-top: 40px;
 }
 
+.t-promoted {
+  padding-top: 80px;
+}
+.t-promoted .o-row {
+  margin-bottom: 30px;
+}
+.t-promoted__item {
+  padding-bottom: 65px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 65px;
+}
+.t-promoted__item--central {
+  background-image: linear-gradient(0deg, #ebcb55 0%, #f8db7e 100%);
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
+@media (min-width: 800px) {
+  .t-promoted__item--central {
+    background-image: url("../../assets/images/promo-1.jpg");
+    background-repeat: no-repeat;
+    padding-left: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  .t-promoted__item--central {
+    padding-left: 70px;
+  }
+}
+
 .t-site-footer {
   padding-left: 15px;
   padding-right: 15px;
