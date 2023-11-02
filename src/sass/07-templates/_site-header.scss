@@ -47,8 +47,8 @@
     padding-top: 0;
 
     @include large-up {
-      // background: url("./assets/images/png/header-figure.png") 15% 100%,
-      //   no-repeat, $yellow-gradient;
+      // background: url("./header-figure.png") 15% 100%, no-repeat,
+      //   $yellow-gradient;
       height: 490px;
       padding-top: $grid-base * 5;
     }

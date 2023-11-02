@@ -504,6 +504,18 @@ p {
   margin-bottom: 25px;
 }
 
+.t-product-list {
+  background-color: #f2f3f5;
+}
+.t-product-list .c-product-selector {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.t-product-list .c-pagination {
+  margin-bottom: 70px;
+  margin-top: 40px;
+}
+
 .t-site-footer {
   padding-left: 15px;
   padding-right: 15px;
