@@ -462,6 +462,24 @@ p {
   font-weight: bold;
 }
 
+.t-newsletter {
+  background-color: #f2f3f5;
+  padding-bottom: 45px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 45px;
+}
+@media (min-width: 1200px) {
+  .t-newsletter {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+.t-newsletter__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .t-our-advantages {
   padding-top: 60px;
 }
