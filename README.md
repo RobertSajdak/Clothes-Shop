@@ -41,6 +41,10 @@ Example screenshots:
 ![Example screenshot](./src/assets/images/screens/screen-4.jpg)
 ![Example screenshot](./src/assets/images/screens/screen-5.jpg)
 ![Example screenshot](./src/assets/images/screens/screen-6.jpg)
+![Example screenshot](./src/assets/images/screens/screen-7.jpg)
+![Example screenshot](./src/assets/images/screens/screen-8.jpg)
+![Example screenshot](./src/assets/images/screens/screen-9.jpg)
+![Example screenshot](./src/assets/images/screens/screen-10.jpg)
 
 ## Features
 
