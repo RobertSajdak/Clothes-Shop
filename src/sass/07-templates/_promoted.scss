@@ -17,6 +17,7 @@
     &--central {
       background-image: $yellow-gradient;
       padding-bottom: $grid-base * 7;
+      padding-left: $grid-base * 1.5;
       padding-top: $grid-base * 7;
 
       @include medium-up {
@@ -31,9 +32,10 @@
     }
 
     &--left {
-      background-image: #2bb9d5;
+      background: #2bb9d5;
 
       @include medium-up {
+        background: none;
         background-image: url("../../assets/images/promo-2.jpg");
         background-repeat: no-repeat;
         padding-left: $grid-base * 4;
@@ -49,11 +51,15 @@
     }
 
     &--right {
-      background-image: #f3bbc4;
+      background: #f3bbc4;
+      margin-top: $grid-base * 3;
 
       @include medium-up {
+        background: none;
         background-image: url("../../assets/images/promo-3.jpg");
         background-repeat: no-repeat;
+        margin-top: $grid-base * 0;
+        text-align: right;
       }
 
       @include large-up {
