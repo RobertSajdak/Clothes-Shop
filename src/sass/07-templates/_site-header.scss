@@ -58,6 +58,7 @@
 
   &__hero-right {
     @include large-up {
+      margin-left: $grid-base * 2;
       padding-left: $grid-base * 46;
       padding-right: 0;
     }
